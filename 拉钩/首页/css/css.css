@@ -1,0 +1,913 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+}
+
+#header{
+    width: 100%;
+    height: 95px;
+
+}
+#header .inner{
+    width: 100%;
+    height: 95px;
+    position: relative;
+}
+
+/*..........................................................................黑边框的样式*/
+#header .header-black{
+    background-color: black;
+    margin-top: 2px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+}
+#header .lg-app{
+    margin-left:27px ;
+    color: #00b38a;
+    background: url("../imgs/app1.png")12px 3px no-repeat ;
+    padding: 0 15px 0 30px;
+    cursor: pointer;
+}
+#header .lg-app:hover{
+    color: #08d7a2;
+}
+#header .lg-os{
+    color:#c4c3c3;
+    cursor: pointer;
+    font-size: 14px;
+    border-left:1px solid #c4c3c3;
+    padding-left:14px ;
+}
+#header .lg-os:hover{
+    color: white;
+}
+#header .inner .header-black ul{
+    color: #c4c3c3;
+}
+#header .inner .header-black ul li{
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 0px;
+}
+#header .inner .header-black ul .logo{
+    margin-right: 85px;
+    cursor:pointer;
+}
+#header .inner .header-black ul .logo:hover{
+    color: white;
+}
+#header .inner .header-black ul .login{
+    margin-right: 30px;
+    padding-left: 12px;
+    border-left: 1px solid #c4c3c3 ;
+    cursor:pointer;
+    color:#c4c3c3;
+    text-decoration: none;
+
+}
+#header .inner .header-black ul .login:hover{
+    color: white;
+}
+
+/*白边框中的样式*/
+#header .inner .header-white{
+    background-color: #fafafa;
+    border-bottom: 1px solid silver;
+    width: 100%;
+    height: 58px;
+}
+
+/*..........................................................白边框中的div的样式*/
+#header .inner .header-white .header-white-1{
+    position: absolute;
+    left: 185px;
+    width: 260px;
+    height: 58px;
+}
+#header .inner .header-white .header-white-1 .lg-img{
+    display: inline-block;
+    background: url("../imgs/拉钩标识.png")no-repeat;
+    width: 100px;
+    height: 35px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+#header .inner .header-white .header-white-1 .city{
+    width: 148px;
+    float: right;
+    margin-top: 26px;
+    padding-left: 10px;
+}
+#header .inner .header-white .header-white-1 .city strong{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+#header .inner .header-white .header-white-1 .city em{
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+    font-style: normal;
+}
+
+/*....................................................................白边框中ul的样式*/
+#header .inner .header-white .header-white-2{
+    position: absolute;
+    width: 258px;
+    height: 57px;
+    line-height: 57px;
+    left: 455px;
+}
+#header .inner .header-white .header-white-2 li{
+    float: left;
+    margin: 0 16px;
+    padding: 0 5px;
+    font-size: 20px;
+    color: #999999;
+    text-align: center;
+    cursor: pointer;
+}
+#header .inner .header-white .header-white-2 .firstP{
+    color: black;
+    border-bottom: 2px solid #00b38a;
+}
+#header .inner .header-white .header-white-2 li:hover{
+    color: black;
+    border-bottom: 2px solid #00b38a;
+}
+
+/*..........................................................................中间部分*/
+
+#container{
+    width: 1327px;
+    height: 2200px;
+}
+
+/*....................................................................左侧导航栏*/
+#container .container-left{
+    position: relative;
+    top:40px;
+    left: 185px;
+    width: 240px;
+    float: left;
+}
+
+
+/*........................................................导航栏上半部分主体导航*/
+#container .container-left .container-left-T{
+    /*background-color:whitesmoke;*/
+    width: 242px;
+    z-index: 10;
+}
+#container .container-left .container-left-T .div1{
+    position: relative;
+    background-color:whitesmoke;
+    width: 240px;
+    /*border:2px solid whitesmoke;*/
+    /*color: grey;*/
+}
+#container .container-left .container-left-T .div1 div{
+    padding-left: 15px;
+    overflow: hidden;
+}
+#container .container-left .container-left-T .div1 .div11{
+    color: grey;
+    width: 221px;
+    border:2px solid whitesmoke;
+    z-index: 20;
+}
+#container .container-left .container-left-T .div11:hover{
+    z-index: 20;
+}
+#container .container-left .container-left-T .div1 h2{
+    padding: 10px 0;
+    margin: 10px 0 5px 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+}
+#container .container-left .container-left-T .div1 h2 span{
+    display: inline-block;
+    float: right;
+    top:30px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background: url("../imgs/arr.png")no-repeat  0 center ;
+}
+#container .container-left .container-left-T .div1 h2 i{
+    display: inline-block;
+    width: 40px;
+    height: 17px;
+    background: url("../imgs/new.png")no-repeat 0 0;
+}
+#container .container-left .container-left-T .div1  a{
+    float: left;
+    white-space: nowrap;
+    margin: 0 5px 5px 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor:pointer;
+}
+#container .container-left .container-left-T .div1   a:hover{
+    color:#00b38a ;
+    text-decoration: underline ;
+    /*。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。下划线与字之间的距离不会弄*/
+}
+/*........................................................导航栏上半部分导航内容*/
+#container .container-left .container-left-T .div1 .div12{
+    position: absolute;
+    left: 240px;
+    width: 540px;
+    /*top: -2px;*/
+    padding:20px 15px 5px;
+    border: 2px solid silver;
+    display: none;
+    z-index: 15;
+}
+#container .container-left .container-left-T .div1 .div12 dl{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#container .container-left .container-left-T .div1 .div12 dl dt a{
+    font-size: 16px;
+    display: inline-block;
+    width: 76px;
+    text-align: right;
+    color: black;
+    /*margin-top: 0px;*/
+}
+#container .container-left .container-left-T .div1 .div12 dl dd {
+    margin-left: 100px;
+    margin-top: -30px;
+    overflow: hidden;
+    display: inline-block;
+}
+#container .container-left .container-left-T .div1 .div12 dl dd a{
+    font-size: 13px;
+    border-right: 1px solid silver;
+    font-weight: 300;
+    padding-right: 15px ;
+    margin: 5px;
+    text-align: center;
+}
+
+
+/*............................................................导航栏下半部分*/
+#container .container-left .container-left-B{
+    width: 240px;
+    position: relative;
+    margin-top: 15px;
+    background-color:whitesmoke;
+    font-size: 18px;
+    height: 62px;
+    border-bottom: 2px solid #00b38a;
+}
+#container .container-left .container-left-B a b{
+    position: absolute;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url("../imgs/arr2.png")no-repeat;
+    background-position:0 -19px ;
+    left: 200px;
+    top: 20px;
+    cursor: pointer;
+}
+#container .container-left .container-left-B a span{
+    position: absolute;
+    display: inline-block;
+    font-size: 18px;
+    height: 62px;
+    line-height: 62px;
+    left: 50px;
+    cursor: pointer;
+
+}
+#container .container-left .container-left-B a span:hover{
+    color: #00b38a ;
+}
+
+/*.......................................................................主体右边部分*/
+
+
+
+
+#container .container-right {
+    position: relative;
+    width: 745px;
+    top: 40px;
+    float: left;
+    left: 230px;
+}
+
+
+/*.......................................................................搜索框*/
+#container .container-right .search-box{
+    position:relative;
+    width: 745px;
+    height: 36px;
+    line-height: 36px;
+}
+#container .container-right .search-box .search-input-text{
+    width: 595px;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    border: 2px solid #00b38a ;
+    border-right: none;
+    font-size: 16px;
+    padding-left: 10px ;
+}
+#container .container-right .search-box .search-input-btn{
+    float: right;
+    width: 138px;
+    height: 36px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    background-color: #00b38a;
+    cursor: pointer;
+}
+#container .container-right .search-box .search-input-btn:hover{
+    background-color:#02A680;
+}
+
+
+/*.........................................................................热门搜索*/
+
+#container .container-right  .hot-search{
+
+    margin: 10px 0;
+    width: 750px;
+    height: 22px;
+    font-size: 14px;
+}
+#container .container-right .hot-search dt,dd{
+    float: left;
+}
+#container .container-right .hot-search dd{
+    margin: 0 10px;
+    cursor: pointer;
+}
+#container .container-right .hot-search a:hover{
+    color: #00b38a;
+    text-decoration: underline;
+}
+
+
+/*.......................................................................轮播大图部分*/
+
+#container .container-right .big-pic{
+    position: relative;
+    width: 750px;
+    height: 164px;
+    border: none;
+    /*border: 1px solid aqua;*/
+    margin-top: 20px;
+    overflow: hidden;
+}
+#container .container-right .big-pic .big-pic-middleB{
+    width: 610px;
+    height: 164px;
+    /*background-color: #c4c3c3;*/
+    /*overflow: hidden;*/
+}
+#container .container-right .big-pic .big-pic-middleB .big-pic-middleB-inner a{
+    height: 0;
+    display: inline-block;
+    border: none;
+}
+#container .container-right .big-pic .big-pic-middleB .big-pic-middleB-inner{
+    position: absolute;
+    border: none;
+    width: 610px;
+    /*top: -169px;/!*..........................................................为什么必须要多4像素才能正好*!/*/
+    top:0;
+    cursor: pointer;
+}
+#container .container-right .big-pic .big-pic-middleB img{
+    width: 610px;
+    height: 164px;
+    margin: 0;
+    padding: 0;
+}
+#container .container-right .big-pic .big-pic-littleB{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 130px;
+    height: 164px;
+    float: left;
+    margin-left: 10px;
+
+}
+#container .container-right .big-pic .big-pic-littleB li{
+    width: 112px;
+    height: 40px;
+    border: 5px solid lightgrey;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+#container .container-right .big-pic .big-pic-littleB li img{
+     width: 112px;
+     height: 40px;
+     z-index: 100;
+ }
+#container .container-right .big-pic .big-pic-littleB i{
+    position: absolute;
+    display: inline-block;
+    width: 112px;
+    height: 40px;
+    background: url("../imgs/alpha.png")no-repeat center center;
+    z-index: 200;
+}
+#container .container-right .big-pic .big-pic-littleB span{
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: -5px;
+    background: url("../imgs/littlebox.png")no-repeat 0 0;
+    width: 128px;
+    height: 52px;
+}
+
+/*.......................................................................轮播小图部分*/
+#container .container-right .little-pic{
+    position: relative;
+    width: 744px;
+    height: 115px;
+    margin: 20px 0;
+    /*border: 1px dashed darkgrey;*/
+}
+#container .container-right .little-pic li{
+    width: 114px;
+    height: 114px;
+    float: left;
+    margin-right: 12px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+#container .container-right .little-pic li a{
+    overflow: hidden;
+}
+#container .container-right .little-pic li div{
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    top: 114px;
+    width: 114px;
+    height: 114px;
+    background-color: #00b38a;
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+}
+#container .container-right .little-pic li div h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    margin: 10px auto 0px;
+}
+#container .container-right .little-pic li div  i{
+    display:inline-block;
+    margin-top: -10px;
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+}
+#container .container-right .little-pic li div p{
+    font-size: 14px;
+    color: white;
+}
+
+#container .container-right .little-pic .last{
+    float: right;
+    margin: 0;
+}
+#container .container-right .little-pic li img{
+    width: 112px;
+    height: 112px;
+    border: 1px solid whitesmoke;
+}
+
+/*。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。找工作区域*/
+#container .container-right .job-tab{
+    position: relative;
+    width: 745px;
+    height: 40px;
+    background-color: whitesmoke;
+}
+#container .container-right .job-tab li{
+    width: 112px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    color: darkgrey;
+}
+#container .container-right .job-tab li h2{
+    font-size: 18px;
+    font-weight: 200;
+    border-top: 3px solid whitesmoke;
+    cursor: pointer;
+}
+#container .container-right .job-tab .hot h2{
+    border-top: 3px solid #00b38a;
+    background-color: white;
+}
+#container .container-right .job-tab .hot{
+    width: 112px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 18px;
+    color: black;
+}
+#container .container-right .job-tab .newest{
+    width: 112px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 18px;
+    color: silver;
+}
+#container .container-right .job-tab .newest h2{
+    border-top: 3px solid whitesmoke;
+}
+/*#container .container-right .job-tab .hot-job div{*/
+    /*width: 725px;*/
+    /*text-align: center;*/
+/*}*/
+#container .container-right .job-tab  .hot-job-content{
+    position: absolute;
+    left: 0;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner{
+    width: 725px;
+    height: 127px;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner div{
+    height: 42px;
+    width: 725px;
+    line-height: 42px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+/*................................................................................................以下是第一行的样式*/
+
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div1 p{
+    float: left;
+    font-size: 16px;
+    color: #00b38a;
+    cursor: pointer;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div1 em {
+    float: left;
+    display: inline-block;
+    font-style: normal;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #00b38a;
+    cursor: pointer;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div1 i{
+    float: left;
+    display: inline-block;
+    font-style: normal;
+    margin: 3px 10px 0 ;
+    font-size: 13px;
+    color: #8b8b8b;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div1 span{
+    display: inline-block;
+    position: absolute;
+    left: 440px;
+    font-size: 16px;
+    color: #00b38a;
+    cursor: pointer;
+}
+
+
+/*。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。以下是第二行的样式*/
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div2 p{
+    float: left;
+    font-size: 17px;
+    color: red;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div2 i{
+    float: left;
+    display: inline-block;
+    font-style: normal;
+    margin: 3px 15px 0 ;
+    font-size: 14px;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div2 span{
+    display: inline-block;
+    position: absolute;
+    left: 440px;
+    font-size: 14px;
+}
+/*。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。以下是第三行样式*/
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div3{
+    background-color: whitesmoke;
+    text-align: center;
+    border-bottom: 1px dashed silver;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div3 p{
+    float: left;
+    font-size: 14px;
+
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div3 span{
+    display: inline-block;
+    position: absolute;
+    left: 440px;
+    font-size: 14px;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .hot-job-content-inner .div3 span i{
+    font-style: normal;
+    border: 1px solid silver;
+    margin-right: 13px;
+    padding: 2px;
+    font-weight: 500;
+}
+#newest-job-content{
+    display: none;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .more{
+    width: 745px;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid silver;
+    position: relative;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .more span{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    background-color: #58b27f;
+    display: inline-block;
+    width: 135px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .more span:hover{
+    background-color: #00b38a;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .more a{
+    float: left;
+    margin-left: 15px;
+}
+#container .container-right .job-tab .hot-job .hot-job-content .more i{
+    position: absolute;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 8px;
+    width: 20px;
+    height:20px;
+    line-height: 20px;
+    background: url("../imgs/arr2.png")no-repeat;
+
+}
+
+/*............................................................................................以下是友情链接*/
+#container .container-right .linkBox{
+    width: 745px;
+    /*border: 1px solid saddlebrown;*/
+    margin-top: 1400px;
+}
+#linkBox{
+    position: absolute;
+    padding-left: 80px;
+    margin-top: -26px;
+}
+#linkBox a{
+    border-right: 1px solid black;
+    font-size: 12px;
+    margin: 10px 10px 0;
+    font-weight: 100;
+    padding-right: 10px;
+    color: #2f2f2f;
+    float: left;
+}
+#linkBox em a{
+    font-style: normal;
+    font-size: 16px;
+    float: left;
+    border: none;
+    text-decoration: solid;
+    margin-top: 7px;
+}
+/*...............................................................................尾部部分*/
+#footer{
+    position: relative;
+    clear: both;
+    min-width: 1024px;
+    padding-left: 185px;
+    height: 67px;
+    /*line-height: 67px;*/
+    /*border: 1px solid silver;*/
+    z-index: 300;
+}
+#footer i{
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    margin-top: 15px;
+    background: url("../imgs/footer_lagou.png")no-repeat;
+    float: left;
+}
+#footer a{
+    float: left;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #515151;
+    font-weight: 400;
+}
+#footer .App {
+  margin-left: 30px ;
+}
+#footer .App p{
+    display: inline-block;
+    margin-left: 5px;
+    width: 30px;
+    height: 16px;
+    background: url("../imgs/new_v1.png")no-repeat 0 0;
+}
+#footer  div img{
+    width: 265px;
+    height: 265px;
+    position: absolute;
+    border: 2px solid #00b38a;
+    margin-top: -290px;
+    display: none;
+}
+#footer span{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #515151;
+    font-weight: 400;
+}
+
+
+#footer .next span{
+    color: silver;
+    font-size: 12px;
+    display: inherit;
+    float: left;
+}
+#footer .next a{
+    margin: 15px 5px 0 5px;
+    color: silver;
+    font-size: 12px;
+}
+/*...............................................................................悬停部分*/
+
+#bot{
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    /*line-height: 64px;*/
+    background: url("../imgs/bot.png")repeat-x;
+    z-index: 300;
+    bottom: 0;
+    left: 0;
+}
+#bot em{
+    display: inline-block;
+    position: absolute;
+    margin-left: 75px;
+    top: -54px;
+    width: 95px;
+    height: 54px;
+    background: url("../imgs/bot2.png")no-repeat 0 0;
+}
+#bot img{
+    padding-top: 10px;
+    margin-left: 75px;
+}
+#bot .companyNum{
+    margin-left: 280px;
+    padding-top: 20px;
+    padding-right: 30px;
+    display: inline-block;
+    height: 30px;
+    line-height: 38px;
+    background: url("../imgs/bot-company.png")no-repeat right 35px;
+}
+#bot i{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 20px;
+    background: url("../imgs/bot-num.png")no-repeat 0 0px;
+}
+#bot  b{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 10px;
+    background: url("../imgs/bot-biaodian.png")no-repeat 0 20px;
+}
+#bot .positionNum{
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-right: 30px;
+    display: inline-block;
+    height: 30px;
+    line-height: 38px;
+    background: url("../imgs/bot-company.png")no-repeat right  bottom;
+}
+#bot a{
+    display: inline-block;
+    position: absolute;
+    margin-left: 60px;
+    height: 64px;
+    width: 142px;
+    font-size: 24px;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background: url("../imgs/login1.png")repeat-x;
+}
+#bot a:hover{
+    background: url("../imgs/login2.png")repeat-x;
+}
+#bot .right{
+    height: 64px;
+    width: 230px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../imgs/sign1.png")repeat-x;
+}
+#bot .right:hover{
+
+    background: url("../imgs/sign2.png")repeat-x;
+}
+#bot .right a{
+    display: inline-block;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 27px;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background: url("../imgs/sign0.png")no-repeat center center;
+}
+#bot .feedback{
+    position: absolute;
+    right: 65px;
+    bottom: 60px;
+    height: 90px;
+    line-height: 90px;
+    text-align: right;
+    font-size: 12px;
+    color: #555555;
+}
+#bot .feedback i{
+    position:inherit;
+    display: inline-block;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    float: right;
+    background: url("../imgs/feedback.png")no-repeat 0 0 ;
+}
+#bot .feedback i:hover{
+    background: url("../imgs/feedback.png")no-repeat 0 -31px  ;
+}
+#bot .feedback span{
+    width: 100px;
+    height: 20px;
+}
+#bot .backtop{
+    position: absolute;
+    cursor: pointer;
+    right: 75px;
+    bottom: 160px;
+    width: 28px;
+    height: 64px;
+    background: url("../imgs/backtop.png")0 0;
+    display: none;
+}
+#bot .backtop:hover{
+    background: url("../imgs/backtop.png")-28px 0;
+}

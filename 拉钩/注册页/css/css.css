@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+}
+
+.box{
+    height: 820px;
+    overflow: hidden;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 325px;
+    background-color: #00b38a;
+}
+.header a{
+    position: absolute;
+    display: inline-block;
+    width: 128px;
+    height: 54px;
+    top: 70px;
+    left: 136px;
+    background: url("../img/logo标识.png")no-repeat 0 0;
+}
+.middle{
+    position: relative;
+    border-radius: 5px;
+    width: 660px;
+    height: 556px;
+    left: 50%;
+    margin-left: -330px;
+    top:-155px;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid whitesmoke;
+    clear: both;
+}
+.middle .left{
+    position:relative;
+    width: 300px;
+    /*border: 1px solid silver;*/
+    padding: 50px 50px 0 50px;
+    float: left;
+}
+.middle .left ul{
+    position: relative;
+}
+.middle .left ul li{
+    font-size: 16px;
+    line-height: 16px;
+
+    float: left;
+    width: 150px;
+    height: 33px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    color: #333;
+    border-bottom: 1px solid whitesmoke;
+}
+.middle .left ul .select {
+    color: #00b38a;
+}
+.middle .left ul span{
+    position: absolute;
+    display: inline-block;
+    background: url("../img/botLine.png")center center;
+    width: 150px;
+    height: 7px;
+    top:27px;
+    left: 0;
+}
+.middle .left ul li i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/phone.png")no-repeat 0 0;
+}
+.middle .left ul li em{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background: url("../img/mail2.png")no-repeat 0 0;
+}
+
+
+.middle .left .phone{
+    margin-top: 60px;
+    width: 300px;
+}
+.middle .left .phone input, .mail input{
+    width: 280px;
+    height: 24px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    /*outline-color: #00b38a;*/
+    margin: 8px  0 10px;
+    border: none;
+}
+.middle .left .phone .test input, .mail .test input{
+    float: left;
+    width: 140px;
+}
+.middle .left .phone .test div, .mail .test div{
+    float: left;
+    width: 100px;
+    height: 44px;
+    margin: 8px 0 10px;
+    background-color: #008CD7;
+}
+.middle .left .phone .test span , .mail .test span{
+    float: left;
+    width: 40px;
+    height: 44px;
+    margin: 8px 0 10px;
+    background: url("../img/test.png")no-repeat center center;
+    cursor: pointer;
+}
+
+
+.middle .left .phone .massage .tex, .mail .massage .tex{
+    float: left;
+    width: 170px;
+}
+.middle .left .phone .massage .but,.mail .massage .but{
+    float: left;
+    width: 110px;
+    height: 44px;
+    background-color: #00b38a;
+    color: white;
+    font-size: 15px;
+}
+.middle .left .phone .btn input, .mail .btn input{
+    padding: 0;
+    height: 44px;
+    border: 1px solid #DCE4E6;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+.middle .left .phone .btn .btn1, .mail .btn .btn1{
+    width: 140px;
+    float: left;
+}
+.middle .left .phone .btn  .btn2, .mail .btn .btn2{
+    width: 140px;
+    float: right;
+}
+
+.middle .left .phone p, .mail  p{
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.middle .left .phone p i , .mail p i{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    width: 13px;
+    height: 13px;
+    background: url("../img/checkbox.png")no-repeat 0 0;
+    /*-ms-background-position-x: 0px;*/
+    /*background-position-x: 0px;;*/
+    -webkit-user-select: none;
+}
+.middle .left .phone p a, .mail p a{
+    color: #00b38a;
+    cursor: pointer;
+}
+.middle .left .phone .last, .mail .last{
+    height: 44px;
+    line-height: 24px;
+    background-color: #00b38a;
+    color: white;
+    font-size: 18px;
+}
+.middle .left .mail{
+    margin-top: 60px;
+    width: 300px;
+    display: none;
+}
+
+
+.middle img{
+    position: absolute;
+    top: 55px;
+    left: 400px;
+}
+
+
+.middle .right{
+    position:relative;
+    /*border: 1px solid silver;*/
+    margin-top: 80px;
+    width: 200px;
+    height: 400px;
+    float: right;
+}
+
+.middle .right h4{
+    color: #777777 ;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+/*.middle .right span a{*/
+    /*display: inline-block;*/
+    /*padding-bottom: 5px;*/
+/*}*/
+.middle .right span{
+    display: inline-block;
+    color:#00b38a;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.middle .right span:hover{
+    text-decoration: underline;
+}
+.middle .right span i{
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background: url("../img/arrow-right.png")no-repeat 0 0;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.middle .right li{
+    position: relative;
+    margin-right: 10px;
+    width: 44px;
+    height: 43px;
+    float: left;
+    cursor: pointer;
+}
+.middle .right div{
+    position: absolute;
+    width: 125px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    color: #777777;
+    border: 1px solid darkgrey;
+    box-shadow: 1px 1px 3px silver;
+    background: whitesmoke;
+    border-radius: 3px;
+    z-index: 300;
+    /*display: none;*/
+}
+.middle .right a{
+    display: inline-block;
+
+}
+.middle .right .sina{
+    width: 44px;
+    height: 43px;
+    background: url("../img/sina.png")no-repeat 0 0;
+}
+.middle .right .tencent{
+    width: 44px;
+    height: 43px;
+    background: url("../img/tecent.png")no-repeat 0 0;
+}
+.middle .right .wechat{
+    width: 44px;
+    height: 43px;
+    background: url("../img/wechat.png")no-repeat 0 0;
+}
+.middle .right img{
+    position: absolute;
+    width: 124px;
+    height: 124px;
+    top: 250px;
+    left: 0px;
+}
+.middle .right p{
+    position: absolute;
+    color: #777777 ;
+    font-weight: 400;
+    font-size: 14px;
+    bottom: 13px;
+}
+
+
+
+
+.middle .rad{
+    content: "";
+    position: absolute;
+    z-index: 103;
+    bottom: -2px;
+    right: -2px;
+    display: block;
+    width: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #f1f1f1 #fff #fff #f1f1f1;
+    border-radius: 5px;
+}
+
+
+
+.footer{
+    position: relative;
+    z-index: 200;
+    clear:both;
+    top: -100px;
+    text-align: center;
+    width: 100%;
+    height:35px ;
+    /*border: 1px solid silver;*/
+}
+.footer .slogan {
+    font-size: 16px;
+    font-weight: 400;
+    color:#d1d1d1;
+}
